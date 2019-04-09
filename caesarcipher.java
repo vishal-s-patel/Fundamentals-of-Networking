@@ -18,8 +18,8 @@ public class caesarcipher
         for(;;)
         {
             System.out.println("--------------------");
-			System.out.println("1.Encryption\n2.Decryption\n3.Exit");
-			System.out.println("enter choice : ");
+	    System.out.println("1.Encryption\n2.Decryption\n3.Exit");
+	    System.out.println("enter choice : ");
             choice=msg.nextInt();
             switch(choice)
             {
