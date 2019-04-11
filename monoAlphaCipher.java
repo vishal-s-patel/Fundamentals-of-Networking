@@ -33,7 +33,6 @@ class monoAlphaCipher
 	public static String encrypt(char[] pText,char[] cText,String msg)
 	{
 		String cipherText="";
-		int[] pos=new int[100];
 		int i;
 		for(i=0;i<msg.length();i++)
 		{
@@ -51,7 +50,6 @@ class monoAlphaCipher
 	public static String decrypt(char[] pText,char[] cText,String msg)
 	{
 		String plainText="";
-		int[] pos=new int[100];
 		int i;
 		for(i=0;i<msg.length();i++)
 		{
